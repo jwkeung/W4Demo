@@ -61,18 +61,8 @@ public class TestDaysMonthV1 {
 	
 	@Test
 	public void testQ2_2(){
-		class StubLeapYearV1 extends LeapYearV1 {
-			//Overwrite the class functions
-			public boolean isLeapYear(int year){
-				boolean leap;
-				//Write your own code here to manipulate the variable leap.
-				if(year == 2004)//This is an example of test sub.
-					leap = true;
-				else
-					leap = false;
-				return leap;
-			}
-		}
+		
+		
 		class StubLeapYearV2 extends LeapYearV1 {
 			public boolean isLeapYear(int year) {
 				return false;
