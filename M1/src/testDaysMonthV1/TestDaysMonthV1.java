@@ -44,7 +44,7 @@ public class TestDaysMonthV1 {
 	@Test
 	public void testQ2_1(){
 		
-		
+		// Modification by Student 1
 		
 		class StubLeapYearV2 extends LeapYearV1 {
 			public boolean isLeapYear(int year) {
@@ -70,6 +70,7 @@ public class TestDaysMonthV1 {
 			}
 		}
 		
+
 		
 		//StubLeapYearV1 stubLeapYearV1 = new StubLeapYearV1();
 		LeapYearV1 stubv2 = new StubLeapYearV2 ();
